@@ -70,6 +70,7 @@ return [
     'hour_after' => ':count цагий',
     'minute_after' => ':count минуты',
     'second_after' => ':count секунды',
+
     'before' => ':timeн өмнө',
     'year_before' => ':count жилий',
     'month_before' => ':count сары',
@@ -77,6 +78,7 @@ return [
     'hour_before' => ':count цагий',
     'minute_before' => ':count минуты',
     'second_before' => ':count секунды',
+
     'list' => ', ',
     'formats' => [
         'LT' => 'HH:mm',
@@ -92,4 +94,5 @@ return [
     'months' => ['1 сар', '2 сар', '3 сар', '4 сар', '5 сар', '6 сар', '7 сар', '8 сар', '9 сар', '10 сар', '11 сар', '12 сар'],
     'months_short' => ['1 сар', '2 сар', '3 сар', '4 сар', '5 сар', '6 сар', '7 сар', '8 сар', '9 сар', '10 сар', '11 сар', '12 сар'],
     'meridiem' => ['өглөө', 'орой'],
+    'first_day_of_week' => 1,
 ];
