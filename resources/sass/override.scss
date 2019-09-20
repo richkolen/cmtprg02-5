@@ -1,0 +1,95 @@
+/* =============================================
+   =========== Text overrides ==============
+   ============================================= */
+.is-muted {
+	color: #e0e0e0 !important;
+}
+
+a.is-muted:hover {
+	color: #2461ac !important;
+}
+
+/* =============================================
+   =========== Nav main menu overrides =========
+   ============================================= */
+@media screen and (min-width: 1088px) {
+	.navbar {
+    	height: 7.5rem;
+	}
+
+	.navbar-start .navbar-dropdown {
+		border-top: 2px solid #2461ac;
+	}
+
+	.navbar-end .navbar-dropdown {
+		border-top: 2px solid #e31516;
+	}
+
+	.navbar-dropdown {
+		font-size: .80rem;
+	}
+
+	.navbar-dropdown .navbar-item.is-tab {
+    	min-height: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-item img {
+    	max-height: 4rem;
+	}
+}
+
+a.navbar-item.is-tab.is-hidden-mobile, a.navbar-link.is-tab.is-hidden-mobile {
+    font-size: .85rem;
+    font-weight: bolder;
+    padding-left: 0.35rem;
+}
+
+nav.navbar.has-shadow a {
+	text-transform: uppercase;
+}
+
+.navbar-start a.navbar-item.is-tab.is-hidden-mobile, .navbar-start a.navbar-link.is-tab.is-hidden-mobile, .navbar-start .navbar-dropdown .navbar-item.is-tab {
+	color: #2461ac;
+}
+
+.navbar-end a.navbar-item.is-tab.is-hidden-mobile, .navbar-end a.navbar-link.is-tab.is-hidden-mobile, .navbar-end .navbar-dropdown .navbar-item.is-tab {
+	color: #e31516;
+}
+
+.navbar-start .navbar-link:not(.is-arrowless)::after {
+    border-color: #2461ac;
+}
+
+.navbar-end .navbar-link:not(.is-arrowless)::after {
+    border-color: #e31516;
+}
+
+@media screen and (min-width: 1472px) {
+	.container {
+    	max-width: 1400px;
+    	width: 1400px;
+	}
+}
+
+div#navbarMainMenu {
+    margin-top: 35px;
+}
+
+.navbar-start .navbar-item.is-tab:hover {
+  border-bottom-color: #2461ac;
+}
+
+.navbar-end .navbar-item.is-tab:hover {
+  border-bottom-color: #e31516;
+}
+
+
+
+
+
+
+
+
+
