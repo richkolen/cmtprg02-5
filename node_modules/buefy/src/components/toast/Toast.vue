@@ -5,23 +5,25 @@
         <div
             v-show="isActive"
             class="toast"
-            :class="[type, position]">
+            :class="[type, position]"
+            :aria-hidden="!isActive"
+            role="alert">
             <div v-html="message"/>
         </div>
     </transition>
 </template>
 
 <script>
-    import config from '../../utils/config'
-    import NoticeMixin from '../../utils/NoticeMixin.js'
+import config from '../../utils/config'
+import NoticeMixin from '../../utils/NoticeMixin.js'
 
-    export default {
-        name: 'BToast',
-        mixins: [NoticeMixin],
-        data() {
-            return {
-                newDuration: this.duration || config.defaultToastDuration
-            }
+export default {
+    name: 'BToast',
+    mixins: [NoticeMixin],
+    data() {
+        return {
+            newDuration: this.duration || config.defaultToastDuration
         }
     }
+}
 </script>
